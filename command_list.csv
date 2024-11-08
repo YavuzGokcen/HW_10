@@ -1,0 +1,135 @@
+    1  cd..
+    2  dir
+    3  cd pictures
+    4  dir
+    5  cücü.png
+    6  npm
+    7  node --version
+    8  npm --version
+    9  npm init --yes
+   10  ls
+   11  dir
+   12  git --version
+   13  winget i --id Git.Git -e --source winget
+   14  winget install --id Git.Git -e --source winget
+   15  git --version
+   16  cd..
+   17  touch yenidosya.txt
+   18  ls
+   19  nano yenidosya2.txt
+   20  ls
+   21  touch yenidosya2.txt
+   22  ls
+   23  mkdir yenibirklasor
+   24  cp yenidosya.txt yenibirklasor/
+   25  cd yenibirklasor/
+   26  ls
+   27  cd..
+   28  rm yenidosya2.txt
+   29  ls
+   30  rm yenidosya.txt
+   31  ls
+   32  cd ..
+   33  pwd
+   34  rmdir yenibirklasor
+   35  mkdir yenibirklasor
+   36  ping
+   37  ping google.com
+   38  ping -c 2 www.google.com
+   39  date
+   40  df-h
+   41  whoami
+   42  df -h
+   43  ls -l
+   44  attrb h+
+   45  attrib h+
+   46  chmod 777 yenidosya.txt
+   47  ls -l
+   48  cd ..
+   49  chmod 777 yenidosya.txt
+   50  cd yeniklasor/
+   51  chmod 777 yenidosya.txt
+   52  ls -l
+   53  chmod 777
+   54  chmod yenidosya2.txt
+   55  chmod 777 yenidosya2.txt
+   56  ls -l
+   57  git --version
+   58  chmod 777 yenibirklasor
+   59  ls -l
+   60  pwd
+   61  gitconfig --global user.name "YavuzGokcen"
+   62  git config --global user.name "YavuzGokcen"
+   63  git config --global user.email yvz.gokcen@gmail.com
+   64  git clone https://github.com/YavuzGokcen/goitDersReposu.git
+   65  ls
+   66  cd goitDersReposu/
+   67  git statuss
+   68  git status
+   69  mkdir yeni.txt
+   70  git status
+   71  mk yeni.txt
+   72  git add.
+   73  git add .
+   74  git status
+   75  git commit -m "Bu benim ilk commitim"
+   76  git status
+   77  git commit -m "Bu benim ilk commitim"
+   78  git push
+   79  git status
+   80  git commit -m "Bu benim ikinci commitim"
+   81  git push
+   82  touch yenibirtext.txt
+   83  git status
+   84  git add .
+   85  git commit -m "başka bir commit"
+   86  git push
+   87  git branch
+   88  git checkout -b yavuz
+   89  git branch
+   90  nano yeniBranchtenDosya.txt
+   91  git add .
+   92  git status
+   93  git commit -m "bu commit yeni branchten gelmiştir."
+   94  git push
+   95  git push --set-upstream origin yavuz
+   96  git clone https://github.com/kesikbasgoit/yeniRepo.git
+   97  ls
+   98  cd yeniRepo
+   99  git status
+  100  git checkout -b "Yavuz2"
+  101  git branch
+  102  git status
+  103  git add .
+  104  git status
+  105  git commit -m "Bu deneme Yavuzun deneme commiti"
+  106  git push
+  107  git push --set-upstream origin Yavuz2
+  108  git clone https://github.com/YavuzGokcen/HW_10.git
+  109  touch text_ignore.txt
+  110  git status
+  111  git status
+  112  cd HW_10
+  113  git status
+  114  git status
+  115  git add .
+  116  git commit -m "Ignore dosyası editlendi"
+  117  git status
+  118  touch main_test.txt
+  119  git add .
+  120  git commit -m "Main Test dosyası oluşturuldu"
+  121  git branch develop
+  122  git checkout develop
+  123  touch develop_test.txt
+  124  git add .
+  125  git commit -m "Develop Test dosyası oluşturuldu"
+  126  git status
+  127  git status
+  128  git add .
+  129  git commit -m "Develop dosyasında değişiklik"
+  130  git checkout main
+  131  git merge develop
+  132  git log
+  133  git history command_list.csv
+  134  git history
+  135  history > command_list.csv
